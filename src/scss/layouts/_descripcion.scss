@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 1px 2px 7px black;
+        padding: 18px;
+        width: 88%;
+        border-radius: 20px;
+        .t-desc{
+            font-size: 26px;
+            font-family: 'Libre Franklin', sans-serif;
+            font-weight: 500;
+        }
+    }
+}

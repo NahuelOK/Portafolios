@@ -1,0 +1,22 @@
+.señalizador{
+    margin: 40px;
+    display: flex;
+    box-shadow: 1px 2px 5px black;
+    width: 16%;
+    padding: 4px;
+    border-radius: 0px 20px 20px 0px;
+    .circulo{
+        background-color: #0020CA;
+        width: 34px;
+        height: 34px;
+        border-radius: 100%;
+        border: solid 2px black;
+        box-shadow: 1px 2px 6px black;
+        margin-right: 4px;
+    }
+    .texto{
+        font-size: 28px;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 500;
+    }
+}
