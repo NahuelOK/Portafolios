@@ -1,0 +1,16 @@
+.mockups{
+    height: 760px;
+    .imgs-atras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .img-frente{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 280px;
+    }
+}
