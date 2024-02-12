@@ -3,7 +3,7 @@ import Señalizadores from "../components/Señalizadores/Señalizadores.js"
 import Descripcion from "../components/Descripcion/Descripcion.js"
 import Tecnologias from "../components/Tecnologias/Tecnologias.js"
 import Mockups from "../components/Mockups/Mockups.js"
-import Proyectos from "../components/Proyectos/Proyectos.js"
+import Proyectos from "../components/ProyectosCard/ProyectosCard.js"
 import MostrarDiplomas from "../components/MostrarDiplomas/MostrarDiplomas.js"
 import Footer from "../components/Footer/Footer.js"
 function Home(){
