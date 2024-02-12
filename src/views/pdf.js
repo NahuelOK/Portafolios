@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 class pdf extends Component {
     render() {
@@ -10,7 +10,6 @@ class pdf extends Component {
             width="100%"
             height="100%"
             >
-
             </object>
         </div>
         );
