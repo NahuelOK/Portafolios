@@ -11,6 +11,8 @@
         width: 100%;
         background-image: url(../../components/Footer/imgs/fondo-footer.png);
         display: flex;
+        background-repeat: no-repeat; 
+        background-size: cover;
         justify-content: space-evenly;
         align-items: center;
         img{

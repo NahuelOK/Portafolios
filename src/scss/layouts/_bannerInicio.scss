@@ -2,6 +2,8 @@
     display: flex;
     box-shadow: 1px 2px 7px black;
     background-image: url(../../components/Banner-Inicio/imgs/Fondo.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
     .foto-perfil{
         width: 320px;
         height: 320px;

@@ -3,7 +3,7 @@ import cssCard from "./imgs/css.png"
 import jsCard from "./imgs/js.png"
 import reactCard from "./imgs/imgReact.png"
 import figmaCard from "./imgs/figma.png"
-import mongoCard from "./imgs/mongo.png"
+import fireBaseCard from "./imgs/fireBase.png"
 import bytCard from "./imgs/bosytail.png"
 import sassCard from "./imgs/sass.png"
 import nodeCard from "./imgs/node.png"
@@ -18,7 +18,7 @@ function Tecnologias(){
             <Card title={"JS"} img={jsCard}/>
             <Card title={"REACT JS"} img={reactCard}/>
             <Card title={"FIGMA"} img={figmaCard}/>
-            <Card title={"MONGO"} img={mongoCard}/>
+            <Card title={"FIREBASE"} img={fireBaseCard}/>
             <Card title={"LIBRERIAS"} img={bytCard}/>
             <Card title={"NODE JS"} img={nodeCard}/>
             <Card title={"SASS"} img={sassCard}/>
