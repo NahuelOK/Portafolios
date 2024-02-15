@@ -1,21 +1,17 @@
-
-
-function Descripcion(){
-    return(
-       <div className="contenedor">
-            <div className="descripcion"> 
-            <div>
-            <p className="t-desc">Soy Nahuel Moreno, estudiante de 20 años en Coderhouse, especializado en Front-End.</p>
-                <p className="t-desc">Con habilidades en JavaScript, ReactJS, Sass y diversas librerías que complementan mi</p>
+function Descripcion() {
+    return (
+        <div className="contenedor">
+            <div className="descripcion">
+                <p className="t-desc">
+                   Soy Nahuel Moreno, estudiante de 20 años en Coderhouse, especializado en Front-End. <br /><br />
+                   Con habilidades en JavaScript, ReactJS, Sass y diversas librerías que complementan mi conjunto de habilidades, <br />
+                   ofrezco desarrollo Front-End innovador y responsivo. <br /> <br />
+                   Aunque todavía estoy estudiando para ser FullStack Developer, estoy listo para aprender y trabajar en equipo. <br /><br />
+                   ¡Vamos a construir algo increíble juntos!
+                </p>
             </div>
-            <div>
-                <p className="t-desc">conjunto de habilidades, ofrezco desarrollo Front-End innovador y responsivo.</p>
-                <p className="t-desc">Aunque todavia estoy estudiando para ser FullStack Developer, estoy listo para aprender y</p>
-            </div>
-                <p className="t-desc">trabajar en equipo. ¡Vamos a construir algo increíble juntos!</p>
-            </div>
-       </div>
+        </div>
     )
 }
 
-export default Descripcion
+export default Descripcion;

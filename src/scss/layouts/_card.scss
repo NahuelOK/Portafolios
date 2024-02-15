@@ -12,3 +12,40 @@
         font-size: 24px;
     }
 }                   
+
+@media (max-width: 1025px) {
+    .card{
+        padding: 16px;
+        h3{
+            font-size: 23px;
+        }
+        img{
+            width: 88%;
+        }
+    }     
+}
+
+@media (max-width: 769px) {
+    .card{
+        padding: 10px;
+        h3{
+            font-size: 20px;
+        }
+        img{
+            width: 76%;
+        }
+    }     
+}
+
+@media (max-width: 426px) {
+    .card{
+        padding: 5px;
+        width: 95%;
+        h3{
+            font-size: 18px;
+        }
+        img{
+            width: 76%;
+        }
+    }     
+}

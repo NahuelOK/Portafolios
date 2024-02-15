@@ -4,7 +4,7 @@ function Card ({img, title}){
         <div>
             <div className="card">
                 <h3>{title}</h3>
-                <img src={img} alt={`${title} card`} />
+                <img src={img} alt={`${title} card`}/>
             </div>
         </div>
     )

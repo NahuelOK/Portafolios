@@ -5,7 +5,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
         box-shadow: 1px 2px 7px black;
         padding: 18px;
         width: 88%;
@@ -14,6 +13,39 @@
             font-size: 22px;
             font-family: 'Libre Franklin', sans-serif;
             font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    .contenedor{
+        .descripcion{
+            padding: 18px;
+            .t-desc{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .contenedor{
+        .descripcion{
+            padding: 16px;
+            .t-desc{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .contenedor{
+        .descripcion{
+            padding: 16px;
+            .t-desc{
+                font-size: 12px;
+            }
         }
     }
 }

@@ -20,3 +20,44 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 1025px) {
+    .señalizador{
+        width: 14%;
+        align-items: center;
+        .circulo{
+            width: 24px;
+            height: 24px;
+        }
+        .texto{
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .señalizador{
+        width: 17%;
+        .circulo{
+            width: 21px;
+            height: 21px;
+        }
+        .texto{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .señalizador{
+        width: 26%;
+        margin: 26px;
+        .circulo{
+            width: 18px;
+            height: 18px;
+        }
+        .texto{
+              font-size: 14px;
+        }
+    }
+}
