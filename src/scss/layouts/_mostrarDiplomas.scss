@@ -3,3 +3,18 @@
     justify-content: center;
     gap: 18px;
 }
+
+@media (max-width: 1025px) {
+    .mostrar-diplomas{
+        padding: 20px;
+    }
+}
+@media (max-width: 769px) {
+    .mostrar-diplomas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+}

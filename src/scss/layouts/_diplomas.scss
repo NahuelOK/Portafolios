@@ -6,3 +6,27 @@
         height: 100%;
     }
 }
+
+@media (max-width: 1025px) {
+    .mostrar-diplomas{
+        .diplomas{
+            border: solid 16px rgb(156, 76, 0);
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .mostrar-diplomas{
+        .diplomas{
+            border: solid 28px rgb(156, 76, 0);
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .mostrar-diplomas{
+        .diplomas{
+            border: solid 20px rgb(156, 76, 0);
+        }
+    }
+}

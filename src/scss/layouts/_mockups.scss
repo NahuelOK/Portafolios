@@ -20,3 +20,57 @@
         }
     }
 }
+
+@media (max-width: 1025px) {
+    .mockups{
+        height: 462px;
+        .imgs-atras{
+            gap: 18px;
+            img{
+                width: 43%;
+            }
+        }
+        .img-frente{
+            bottom: 180px;
+            img{
+                width: 52%;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .mockups{
+        height: 334px;
+        .imgs-atras{
+            gap: 18px;
+            img{
+                width: 42%;
+            }
+        }
+        .img-frente{
+            bottom: 140px;
+            img{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .mockups{
+        height: 204px;
+        .imgs-atras{
+            gap: 18px;
+            img{
+                width: 42%;
+            }
+        }
+        .img-frente{
+            bottom: 54px;
+            img{
+                width: 50%;
+            }
+        }
+    }
+}

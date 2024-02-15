@@ -25,7 +25,10 @@ function ProyectosCard() {
           <div className="componentes-card">
             <h2>{proyect.title}</h2>
             <p>{proyect.description}</p>
-            <Link to={proyect.url} className="btn-ver-producto">
+            <Link to={proyect.repo}  target="_blank" className="btn-ver-producto">
+              Ir a ver Repositorio
+            </Link>
+            <Link to={proyect.url} target="_blank" className="btn-ver-producto">
               Ir a ver Proyecto
             </Link>
           </div>
