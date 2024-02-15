@@ -5,9 +5,8 @@
     background-repeat: no-repeat; 
     background-size: cover;
     .foto-perfil{
-        width: 320px;
-        height: 320px;
-       margin: 20px;
+        width: 24%;
+        margin: 20px;
         img{
             width: 100%;
             height: 100%;
@@ -50,5 +49,75 @@
         height: 94px;
         margin: 20px;
         margin-left: 100px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .banner{
+        .foto-perfil{
+            height: 100%;
+        }
+        .titulos{
+            gap: 14px;
+            .titulos-primarios{
+                font-size: 58px;
+            }
+            div{
+                .titulos-secundarios{
+                    font-size: 42px;
+                }
+                .titulos-terciarios{
+                    font-size: 32px;
+                }
+            }
+        }
+        .bandera{
+            width: 13%;
+            height: 100%;
+            margin: 1%;
+            margin-left: 12%;
+        }
+    }
+}
+@media (max-width: 769px) {
+    .banner{
+        .titulos{
+            gap: 12px;
+            .titulos-primarios{
+                font-size: 46px;
+            }
+            div{
+                .titulos-secundarios{
+                    font-size: 28px;
+                }
+                .titulos-terciarios{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 426px) {
+    .banner{
+        .titulos{
+            gap: 8px;
+            .titulos-primarios{
+                font-size: 24px;
+            }
+            div{
+                gap: 10px;
+                margin-left: 52px;
+                .titulos-secundarios{
+                    font-size: 13px;
+                }
+                .titulos-terciarios{
+                    font-size: 10px;
+                }
+            }
+        }
+        .bandera{
+            width: 11%;
+            margin-left: 13%;
+        }
     }
 }
